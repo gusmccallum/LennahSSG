@@ -19,9 +19,10 @@ Argument | Description
   `-i <PATH>`, `--input <PATH>` | Converts txt file(s) at the `<PATH>` to html. The output will be in a folder called `dist` in the current directory (So make sure you know what directory you are calling the exe from).
 
 ## Features
-- Converts text files into a formatted html file
+- Converts text or markdown files into a formatted html file
 - Takes the first line of the text file and sets it as the title and gives it a header format
 - Can recursively go through deep folders to find txt files
+- Supports markdown syntax for **bold** and *italics* (text found in an .md file with ```**text**``` or ```__text__``` syntax will be made **bold**, text found with ```*text*``` or ```_text_``` syntax will be *italicized*.
 
 ## Example
 ```
@@ -29,4 +30,10 @@ C:\Users\User\LennahSSG\Debug\LennahSSG.exe -i "Silver Blaze.txt"
 ```
 This will result in this sample html page:
 http://joshuali7536.github.io/LennahSSG
+
+## Example 2
+```C:Users\User\LennahSSG\Debug\LennahSSG.exe -i Scene1.md
+```
+This will result in this sample html page:
+https://gusmccallum.github.io/
 
