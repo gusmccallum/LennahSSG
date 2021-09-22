@@ -32,7 +32,8 @@ This will result in this sample html page:
 http://joshuali7536.github.io/LennahSSG
 
 ## Example 2
-```C:Users\User\LennahSSG\Debug\LennahSSG.exe -i Scene1.md
+```
+C:\Users\User\LennahSSG\Debug\LennahSSG.exe -i Scene1.md
 ```
 This will result in this sample html page:
 https://gusmccallum.github.io/
